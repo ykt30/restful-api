@@ -1,4 +1,5 @@
-# REST API developed for QMUL (Queen Mary University of London) ECECS781P CLOUD COMPUTING(2019/20) Mini-Project
+# Currency Exchange RESTful API
+## REST API developed for QMUL (Queen Mary University of London) ECECS781P CLOUD COMPUTING(2019/20) Mini-Project
 
 This RESTful Application Program Interface (API) is developed using Python and Flask. It provides a simple REST API with **real-time, historical exchange rates and currency details for 168 world currencies**, delivering currency pairs in universally usable JSON format. 
 
