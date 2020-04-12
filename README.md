@@ -14,20 +14,20 @@ Overall this mini project successfully implements following features:
 ### Introduction
 Following pages are avilable for RESTful API
 1. HOMEPAGE
-hostname:portnumber 
+```hostname:portnumber``` 
 
 2. COUNTRY-CURRENCY INFORMATION
-hostname:portnumber/unit
+```hostname:portnumber/unit```
 
 3. ENQUIRY CURRENCY CODE FROM COUNTRY NAME eg: Finland, Philippines
-hostname:portnumber/unit/Finland
-hostname:portnumber/unit/Philippines
+```hostname:portnumber/unit/Finland```
+```hostname:portnumber/unit/Philippines```
 
 4. GET LIVE MARKET EXCHANGE RATE (EXTERNAL)
-hostname:portnumber/livemarket
+```hostname:portnumber/livemarket```
 
 5. GET HISTORICAL EXCHANGE RATE (EXTERNAL)
-hostname:portnumber/historicalexchange
+```hostname:portnumber/historicalexchange```
 
 404 Pages for unknown queries.
 
