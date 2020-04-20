@@ -1,4 +1,3 @@
-# Implementing GET on database (WORK)
 from flask import Flask, json, jsonify, request
 import requests
 import requests_cache
