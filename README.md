@@ -118,11 +118,8 @@ sudo docker build . --tag=cassandrarest:v1
 ```
 sudo docker run -p 80:80 cassandrarest:v1
 ```
-### Sending Http request
-1. Open a new terminal and change to current directory.
-```
-cd your-directory
-```
+### Sending http request
+
 To send POST Request
 ```
 curl -i -H "Content-Type: application/json" -X POST -d '{"number":your-choice,"country":"your-choice","countrycode":"your-choice","currency":"your-choice"}' yourIP/unit
