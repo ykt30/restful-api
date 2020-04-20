@@ -40,7 +40,7 @@ def create ():
 # DELETE database
 @app.route('/unit', methods=['DELETE'])
 def delete():
-    session.execute("""DELETE FROM country_currency.stats WHERE number={}""".format(int(request.json['number'])))
+    session.execute("""DELETE FROM country_currency.stats WHERE country='{}'""".format(request.json['country']))
     return jsonify({'message' : 'deleted: /unit/{}'.format(request.json['number'])}), 200
 
 # CASSANDRA: Enquiry Currency Code ISO 4217 from Country Name
