@@ -130,7 +130,7 @@ curl -i -H "Content-Type: application/json" -X POST -d '{"number":your-choice,"c
 
 To send DELETE Request
 ```
-curl -i -H "Content-Type: application/json" -X DELETE -d '{"number":your-choice}' yourIP/unit
+curl -i -H "Content-Type: application/json" -X DELETE -d '{"country":"your-choice"}' yourIP/unit
 ```
 
 ## Resource:
